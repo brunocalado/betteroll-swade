@@ -1,45 +1,3 @@
-## Welcome Better Rolls 2
-
-You can use the [editor on GitHub](https://github.com/brunocalado/betteroll-swade/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brunocalado/betteroll-swade/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-
-### novo
-
 # Better Rolls for SWADE
 
 Please leave your feedback on the official Foundry discord. Feel free to ping me if you want.
@@ -51,19 +9,19 @@ This module adds a new rolling mode to the SWADE system that adds the ability to
 * This is more complex than system default rolls. It's quite likely that you don't need it. Please try SWADE without it first and only check it out if you feel rolls could be improved.
 * You need to be familiar with the rules of Savage Worlds to use it. You need to know e.g. which dice are discarded and how damage is affected by raises; generally speaking, this is not a good module for beginners. It could be confusing. So, again, please use the base system and get familiar with it before using this module.
 
-## Settings
+# Settings
 
 Better Rolls 2 comes with a variety of settings:
 
 ![Settings](img/module-settings.jpg)
 
-### Global actions
+# Global actions
 
 ![Global Actions](img/global-actions.jpg)
 
 Global actions are pre-defined global actions that are ready to use. You can choose to disable them, if they should not be available in your setting.
 
-### World Global actions
+## World Global actions
 
 ![World Global Actions](img/world-global-actions.jpg)
 
@@ -73,26 +31,26 @@ With the World global action functionality, you can define your own global actio
 
 see [GLOBAL_ACTIONS.md](GLOBAL_ACTIONS.md) for more information on how to create global actions.
 
-### Optional rules
+# Optional rules
 
 ![Optional](img/optional-rules.jpg)
 
 This setting allows you to quickly enable optional rules. Currently, only _Gritty Damage_ is supported.
 
-### Better Rolls 2 card configuration
+# Better Rolls 2 card configuration
 
 Better Rolls 2 offers a few display modes that you can switch between using different click actions:
 
-#### Show Better rolls card (Default)
+## Show Better rolls card (Default)
 This option will display the Better Rolls 2 card, when single clicking on a Trait, Weapon or Power. See details below. This option is useful, if you need to add some settings on the card itself (like global actions; e.g. Wild Attack, changes in Ammo or Power Point handling).
 
-#### Show card and trait roll
+## Show card and trait roll
 This option will display the card and automatically rolling the selected trait (powers and weapons rely on the arcane/weapon skill). It will automatically factor in the Better Rolls modifiers from the chat bar as well as modifications through Wounds, Fatigue, or states like *Distracted* or *Vulnerable*. Additionally, the selected “Modifiers for Better Rolls” will apply.
 
-#### Show card and roll trait and damage
+## Show card and roll trait and damage
 See above, but the damage will also be rolled automatically-
 
-#### Default system roll
+# Default system roll
 This will open the default modification popup window of the SWADE rule system.
 
 Other options allow to switch on and off the automatic ammo and power point handling (see below), the uploading of custom benny images and the option to select a different Dice so nice! theme for your damage dice.
@@ -250,23 +208,23 @@ The following information assumes a passing knowledge of both javascript and Fou
 
 The module exposes an API in game.brsw.
 
-## Other Modules
+# Other Modules
 
-### Integrations
+## Integrations
 
 * **Dice so Nice:** This module supports using a different theme for the damage dice when you are using Dice so Nice. You can select it in the module settings (see above)
 * **Dice Tray:** If Dice Tray is enabled, better rolls will use it's modifier box in addition to all other options.
 
-### Recommendations
+## Recommendations
 
 Better Rolls for SWADE works well with the SWADE Toolkit module: https://foundryvtt.com/packages/swade-toolkit/
 
-### Known incompatibilities
+## Known incompatibilities
 
 * SWADE Tools and Better Rolls implement similar things in very different ways. Since both modules affect the same functionalities, neither can live while the other survives (please don't have them active at the same time).
 * ModBox and Better Rolls do not work together
 
-## Authors
+# Authors
 
 - JuanV, base of drag and drop support, custom bennies, translation infrastructure.
 - SalieriC, manual ammunition management, power point management, typo hunting, hardy.
@@ -277,11 +235,11 @@ Better Rolls for SWADE works well with the SWADE Toolkit module: https://foundry
 - Art assets shipped with the system are attributed by a README file in the same directory.
 - The shipped bennies are property of Classical Numismatic Group, Inc.
 
-## Translations
+# Translations
 - Catalá: David Montilla
 - French : Cyril Ronseaux
 
-## Acknowledgements
+# Acknowledgements
 - All the people reporting bugs and opening issues. Without them this module would be far worse.
 - Atropos for making Foundry VTT
 - RedReign for Better Rolls 5e
@@ -289,5 +247,5 @@ Better Rolls for SWADE works well with the SWADE Toolkit module: https://foundry
 - Lipefl, author of swade-tools, for inspiration and just shameless code ripping.
 - All the nice people in the #swade channel of the official discord. Such a great community,
 
-## License
+# License
 The source code is licensed under GPL-3.0.
