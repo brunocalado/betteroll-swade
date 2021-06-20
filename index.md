@@ -15,14 +15,14 @@ Better Rolls 2 comes with a variety of settings:
 
 ![Settings](img/module-settings.jpg)
 
-See [Settings](settings.md)
+See [SETTINGS](settings.md)
 
 # Anatomy of a Better Rolls Card
 Learn about the template for the Better Rolls cards [here](anatomy.md).
 
-See [Anatomy of a Better Rolls Card](anatomy.md)
+See [ANATOMY OF A BETTER ROLLS CARD](anatomy.md)
 
-## Modifier row
+# Modifier row
 
 Better Rolls 2 will add this section above the chat window
 
@@ -40,17 +40,17 @@ Finally the "Damage roll modifier" adds modifiers to damage rolls.
 
 If you prefer to hide this section, you can find an option to collapse it by default in the settings.
 
-## Card Types
+# Card Types
 
 See [Card Types](card_types.md).
 
-## More Functionalities
+# More Functionalities
 - Drag and Drop
 - Custom Bennies
 - See [GLOBAL ACTIONS](global_actions.md) for more information on how to create global actions.
 - Macros and API
 
-See [More Functionalities](more_functionalities.md).
+See [MORE FUNCTIONALITIES](more_functionalities.md).
 
 # Other Modules
 
@@ -74,4 +74,4 @@ Better Rolls for SWADE works well with the SWADE Toolkit module: https://foundry
 - Acknowledgements
 - License
 
-See [About](about.md).
+See [ABOUT](about.md).

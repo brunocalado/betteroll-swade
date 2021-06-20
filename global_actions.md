@@ -1,6 +1,6 @@
 # [index](index.md)
 
-# World Global actions
+# World Global Actions
 
 ![World Global Actions](img/world-global-actions.jpg)
 
@@ -8,7 +8,7 @@ With the World global action functionality, you can define your own global actio
 
 ![Add a new World Global Action](img/new-world-global-action.jpg)
 
-# Global Actions Documentation.
+# Global Actions Documentation
 
 Global actions are a json encoded set of instructions that allow the user to customize how Better Rolls work.
 
@@ -86,9 +86,9 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 
 * group: A string containing a group name, actions with the same name will be shown grouped in the card (in some future version)
 
-# Examples:
+# Examples
 
-** Called Shot **
+**Called Shot**
 ```json
 {
   "id": "CALLEDSHOTHAND",
@@ -101,7 +101,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Cover & Obstacles **
+**Cover & Obstacles**
 ```json
 {
   "id": "LightCover",
@@ -143,7 +143,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Unarmed Defender **
+**Unarmed Defender**
 ```json
 {
   "id": "UNARMEDDEFENDER",
@@ -155,7 +155,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Touch Attack **
+**Touch Attack**
 ```json
 {
   "id": "TOUCHATTACK",
@@ -168,7 +168,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Off-Hand Attacks **
+**Off-Hand Attacks**
 
 ```json
 {
@@ -181,7 +181,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Nonlethal Damage **
+**Nonlethal Damage**
 
 ```json
 {
@@ -194,7 +194,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Two Weapons **
+**Two Weapons**
 
 ```json
 {
@@ -207,7 +207,7 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 }
 ```
 
-** Edges **
+**Edges**
 ```json
 {
   "id":"MONKRAISE",
