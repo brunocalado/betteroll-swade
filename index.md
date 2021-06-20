@@ -16,7 +16,9 @@ Better Rolls 2 comes with a variety of settings:
 ![Settings](img/module-settings.jpg)
 
 # Global Actions
-![Learn about it here.](global_actions.md)
+Global actions are pre-defined global actions that are ready to use. You can choose to disable them, if they should not be available in your setting.
+
+See [GLOBAL_ACTIONS.md](global_actions.md) for more information on how to create global actions.
 
 # Optional rules
 
