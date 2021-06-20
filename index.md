@@ -1,4 +1,4 @@
-# Better Rolls for SWADE
+# Better Rolls 2 for SWADE
 
 Please leave your feedback on the official Foundry discord. Feel free to ping me if you want.
 
@@ -14,6 +14,9 @@ This module adds a new rolling mode to the SWADE system that adds the ability to
 Better Rolls 2 comes with a variety of settings:
 
 ![Settings](img/module-settings.jpg)
+
+# Global Actions
+![Learn about it here.](global_actions.md)
 
 # Optional rules
 
