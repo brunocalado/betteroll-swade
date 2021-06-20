@@ -107,31 +107,13 @@ Available global actions are "Subtract Power points" - can be activated in the s
 
 When an actor has been targeted and damaged using the "Apply damage" button, the "Soak card" will appear. This will allow the actor to make a "Soak (Vigor) roll" to spend a Benny and soak damage. This will only be available, if there are Bennies left to spend.
 
-## More functionalities
+## More Functionalities
+- Drag and Drop
+- Custom Bennies
+- Global actions
+- Macros and API
 
-### Drag and Drop
-
-You can also use the weapon or power icon to drag it over the actor you want to target. It will execute the "Show card and trait roll" action.
-
-![Drag and Drop](img/drag_and_drop_v-1-2-10.gif)
-
-For easier accessability, instead of dragging the icon on an actor, you can also drag it to the macro bar, creating an automatic macro instead.
-
-### Custom Bennies
-
-The module comes with some custom bennies that can be found in the assets/bennies folder.
-
-Currently, it ships with some classical roman and greek coins.
-
-### Global actions.
-
-The module let's you define your own actions, see this [docs](GLOBAL_ACTIONS.md):
-
-### Macros and API
-
-The following information assumes a passing knowledge of both javascript and Foundry API. It's geared towards macro or module developers.
-
-The module exposes an API in game.brsw.
+See [More Functionalities](more_functionalities.md).
 
 # Other Modules
 
@@ -150,4 +132,4 @@ Better Rolls for SWADE works well with the SWADE Toolkit module: https://foundry
 * ModBox and Better Rolls do not work together
 
 # About
-See [About](About.md) for Authors, Translations, Acknowledgements, License, etc.
+See [About](about.md) for Authors, Translations, Acknowledgements, License, etc.
