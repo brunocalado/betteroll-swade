@@ -274,6 +274,34 @@ This tag let's you group the actions, it is not mandatory, but it will be used i
 
 ## Edges - Savage Pathfinder 
 
+**Desperate Attack 2**
+```json
+{
+  "id":"DESPERATEATTACK2",
+  "name":"Desperate Attack 2",
+  "button_name":"Desperate Attack 2",
+  "skillMod": "+2",   
+  "dmgMod": "-2",
+  "selector_type":"skill",
+  "selector_value":"Fighting",
+  "group": "Savage Pathfinder"     
+}
+```
+
+**Desperate Attack 4**
+```json
+{
+  "id":"DESPERATEATTACK4",
+  "name":"Desperate Attack 4",
+  "button_name":"Desperate Attack 4",
+  "skillMod": "+4",   
+  "dmgMod": "-4",
+  "selector_type":"skill",
+  "selector_value":"Fighting",
+  "group": "Savage Pathfinder"     
+}
+```
+
 **Monk Attack**
 ```json
 {
